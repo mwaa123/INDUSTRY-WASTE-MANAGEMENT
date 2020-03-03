@@ -1,0 +1,42 @@
+body {
+    background-image: url(/images/waste2.jpg);
+}
+header {
+   background-color: rgb(48, 70, 45);
+   padding: 20px;
+   text-align: center;
+   font-size: 35px;
+   color: white; 
+}
+article {
+    float: left;
+    width: 50%;
+    height: fit-content;
+    color: white;
+}
+aside {
+    float:right;
+    color: white;
+}
+button.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    text-align: inherit;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+}
+button#submit {
+    padding: 0;
+    background-color: rgb(145, 160, 189);
+    color: white;
