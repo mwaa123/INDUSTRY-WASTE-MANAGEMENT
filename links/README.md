@@ -1,8 +1,9 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# JUNK CART 
+This project was developed to help have a cleaner environment through waste management
+process.3/3/2020
+#### Sally Mbugua,James Mirara,Quincy Marara,Dan Mwihaki,Ruth Mugo
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
@@ -17,5 +18,6 @@
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+[LICENCE](licence/LICENCE.md).
+
 Copyright (c) {year} **{List of contributors or company name}**
