@@ -90,7 +90,6 @@ hr{
 .register{
     background-color: #4c4c4c;
     color: white;
-<<<<<<< HEAD
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
@@ -100,7 +99,6 @@ hr{
 }
 .register:hover{
     opacity: 1;
-=======
 }
 h1{
     text-align: center;
@@ -119,5 +117,4 @@ ul{
 }
 h4{
     text-align: center;
->>>>>>> add a readme file not yet edited
 }
