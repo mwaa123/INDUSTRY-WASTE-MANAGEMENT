@@ -17,6 +17,6 @@ Used html,css, and Javascript language so as to write the website and jquery.
 ## Support and contact details
 Email:mirarajames29@gmail.com,ruthwanjiramugo@gmail.com,qbarnabas@gmail.com,dankariuki0101@gmail.com,francissally702@gmail.com
 ### License
-*MIT License*
+[LICENSE](../INDUSTRY-WASTE-MANAGEMENT/LICENSE.md)
 Copyright (c) {2020} **Effiency group**
 #### Here is the livelink 
