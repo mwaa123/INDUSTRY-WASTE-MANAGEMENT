@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) <2020> <RESOURCE EFFICIENCY>
+Copyright (c) <2020> <COPYRIGHT RESOURCE EFFICIENCY>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
