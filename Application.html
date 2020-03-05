@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application form</title>
     <link rel="icon" href="images/icon.jpg" type="image/x-icon">
 </head>
 <body>
-    <header id="header">
+    <header id="header" style="text-align: center; font-size: 35px;padding: 20px;">
       <h1>COMPANY APPLICATION FORM</h1>
     </header>
     <section>
-        <article>
+        <article style="float: left;width: 50% ;height: fit-content;">
             <div class="container-fluid" id="info">
                 <div class="details">
                     <h2>Fill in the form below</h2>
@@ -35,32 +36,30 @@
                 </div>
             </div>    
         </article>
-        <aside>
+        <aside style="float: right;">
             <div class="container-fluid" id="info">
                 <div class="details">
-                    <h3>Proceed by inputing your company' needs</h3>
+                    <h3>Proceed by inputting your company' needs</h3>
                 </div>
                 <div class="Information">
-                    <form action="">
-                        <div class="form-group">
                             <label for="enter"></label><br>
                             <label for="enter">Type of waste</label><br>
                             <input type="text" id="waste" class="form-control mb-3" placeholder="Type of waste to be disposed" required><br>
-                            <label for="enter">Choose type of industry </label><br>
-                        </div>
-                    </form>
-                </div>
+                            <label for="enter">Choose type of industry :</label>
                 <select>
                     <option value="primary">Primary Industry</option>
-                    <option value="secondary">Secondary indusry</option>
-                </select>
+                    <option value="secondary">Secondary industry</option>
+                </select><br><br>
+                <button id="submit" ><a href="Main.html" style="text-decoration: none;">submit</a></button>
             </div>
-                <p></p>
-                <button id="submit" >submit</button>
-                <a href="Main.html" class="btn btn-info" role="button">Main</a>
-        
+                
+                
         </aside>
     </section>
-   
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

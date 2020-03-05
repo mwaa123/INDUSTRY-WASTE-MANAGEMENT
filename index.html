@@ -2,50 +2,60 @@
 <html>
     <head>
         
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <title>Waste Management</title>
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
     </head>
-    <body  class="body">
-        <form action="Signin.html">
-            <div class="container">
-                <h1>What if you walked with us?</h1>
-                <h1>Register && Walk With Us</h1>
-                
-                <p1>Please <strong>Register</strong> With Us On The Form Below:</p1>
-                <!-- <img src="./images/1.jpg"> -->
-                <hr>
-                <div class="card">
-                    <div class="card-items" style="text-align: center;">
-                        <label for="email">Email</label>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-                        <br>
-                        
-                        <label for="password">Password</label>
-                        <input type="password" placeholder="password" name="psw" required>
-                        <br>
-                        
-                        <label for="Password Repeat">Repeat Password</label>
-                        <input type="password" placeholder="Repeat Password" name="psw-repeat">
+<body>
+        <h1 style="text-align: center;background-color: rgba(221, 240, 232, 0.877);padding: 10px 0px 20px;">What if you walked with us?<br>
+            Register & Walk With Us  <span style="font-size: 20px;position: absolute;top: 0;right:0;"> <a href="about.html">About us</a></span></h1>
+            
+
+<div class="start">
+    <div id="overlay" style="right: 0;left: 0;top: 0;bottom: 0;position: fixed;background-color: rgba(82, 172, 172, 0.644);">
+
+    </div>
+         <div class="container">                
+             <div class="card" id="card" style="max-width: 80%;;width: 600px;height: 500px;position: fixed;align-items: center; top: 50%; left: 50%; transform: translate(-50%,-50%);border-radius: 10%;">
+                    <div class="card-items" style="text-align: center;justify-content: space-between;">
+                        <div class="header" style="padding: 30px;display: flex;justify-content:space-between;">
+                        <h1 style="margin: 0px 190px;">Register</h1>
+                                <div  class="close button" >
+                                    <button id="close" style="background: none;outline: none;border: none;font-weight: bolder;">&times;</button>
+                                </div>
+                                
+                         </div>
+                        <label for="email">Email</label><br>
+                        <input type="text" placeholder="Enter Email" id="email" required><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" placeholder="password" id="psw" required><br>
+                        <label for="Password Repeat">Repeat Password</label><br>
+                        <input type="password" placeholder="Repeat Password" id="psw-repeat"required>
                         <br>
                         <p2>Please consider reviewing our conditions as they may be stated herein: <a href="#" style="color: blue;">Terms and Conditions.</a></p2>
                         <br>
-                        <button type="submit" class="register">Register</button>
-
+                        <button type="submit" id="register"><a href="Application.html">Register</a></button><br>
+                        <p>If you already have an account, <a href="Signin.html" >Sign In</a></p>
                     </div>
-                    <div class="containerSignin">
-                        <p>If you already have an account, <a href="Signin.html">Sign In</a></p>
-                </div>
-                </div>
-            </div>
-        </form>
-       
-        </div>
-        
-
-                </div>
+             </div>
+             <div class="but" style="margin: 300pt;">
+                <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+                <button id="start" style="position: absolute;color: blanchedalmond;font-size: 35px;font-family: 'Kaushan Script', cursive;">Click to begin</button>
             </div>
         </div>
-    </body>
+</div>
+<div class="footer" style="padding-bottom: 8%;"></div>
+    
+</div>
+<div id="repair">
+    <p style="font-size: 35px;font-family: 'Gloria Hallelujah', cursive;display: flex;">Recycle Reuse Reduce <span style="font-size: 20px;">pollution</span></p>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
 </html>

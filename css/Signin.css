@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/change.jpg);
+    background-image: url(../images/cofe.jpeg);
     align-content: center;
     align-self: auto;
     text-align: center;
@@ -25,7 +25,7 @@ input[type=text], input[type=password]{
     
 }
 button{
-    background-color: darkgreen;
+    background-color:brown;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -36,14 +36,7 @@ button{
 button:hover{
     opacity: 0.8;
 }
-.cancelbtn{
-    width: auto;
-    padding: 10px 18px;
-    background-color: darkgreen;
-    text-indent: 20%;
-    text-align: center;
 
-}
 .imgcontainer{
     text-align: center;
     margin: 24px 0 12px 0; 
