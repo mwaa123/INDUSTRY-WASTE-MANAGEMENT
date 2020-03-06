@@ -26,5 +26,5 @@ Used html,css, and Javascript language so as to write the website and jquery.
 Email:mirarajames29@gmail.com,ruthwanjiramugo@gmail.com,qbarnabas@gmail.com,dankariuki0101@gmail.com,francissally702@gmail.com
 
 ### License
-[LICENSE](licence/LICENSE.md)
+[LICENSE](licence/LICENCE.md)
 Copyright (c) {2020} **Effiency group**
